@@ -17,8 +17,9 @@ import torch.nn.functional as F
 from torch.nn.parameter import Parameter
 from torch.optim import Adam
 from torch.utils.data import DataLoader
+from torch.nn import Linear
 
-from utils import MnistDataset, cluster_acc, Linear
+from utils import MnistDataset, cluster_acc
 
 
 class AE(nn.Module):
